@@ -24,7 +24,7 @@ box.addEventListener("focus", function(){
 })
 
 box.addEventListener("focusout", function(){
-    text.textContent = "Click here to give your rating"
+    text.textContent = "Click here to give your rating!"
 })
 
 
