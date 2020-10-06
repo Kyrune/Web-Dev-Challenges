@@ -44,6 +44,8 @@ box.addEventListener("keydown", function(event) {
         text.textContent = "☹️";
     } else if (key == 49) {
         text.textContent = "🤬";
+    } else {
+        text.textContent = "Type a number between 1 and 5";
     }
 });
 
