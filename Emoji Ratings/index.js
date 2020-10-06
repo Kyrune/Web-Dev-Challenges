@@ -33,14 +33,14 @@ box.addEventListener("focusout", function(){
 box.addEventListener("keydown", function(event) {
     // console.log("keydown: " + event.keyCode);
     let key = event.keyCode;
+
     if (key == 53) {
         text.textContent = "😁";
     } else if (key == 52) {
         text.textContent = "🙂";
-    }
-    else {
-        text.textContent = "Type a number between 1 and 5";
-    }
+    } else if (key == 51) {
+        text.textContent = "😐";
+    } 
 });
 
 /*
