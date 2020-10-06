@@ -30,7 +30,9 @@ box.addEventListener("focusout", function(){
 
 // Write your code here 👇
 
-
+box.addEventListener("keydown", function(event) {
+    console.log("keydown: " + event.keyCode);
+});
 
 /*
 
