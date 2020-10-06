@@ -3,7 +3,7 @@
 Hint 1:
 To listen for keyboard events, hook a "keydown" event listener onto
 the `box` element. To figure out which key the user has pressed, use the
-event.keyCode property in the callback funtion
+event.keyCode property in the callback function
 
 Like this:
 box.addEventListener("keydown", function(evt) {
