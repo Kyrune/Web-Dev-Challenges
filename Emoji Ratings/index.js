@@ -42,6 +42,8 @@ box.addEventListener("keydown", function(event) {
         text.textContent = "😐";
     } else if (key == 50) {
         text.textContent = "☹️";
+    } else if (key == 49) {
+        text.textContent = "🤬";
     }
 });
 
