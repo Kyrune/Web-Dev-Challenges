@@ -6,7 +6,7 @@ their ratings by pressing a key on their keyboards (the numbers 1 to 5).
 Here's the numbers' corresponding emojis:
 
 5 = 😁
-3 = 🙂
+4 = 🙂
 3 = 😐
 2 = ☹️
 1 = 🤬
@@ -35,7 +35,10 @@ box.addEventListener("keydown", function(event) {
     let key = event.keyCode;
     if (key == 53) {
         text.textContent = "😁";
-    } else {
+    } else if (key == 52) {
+        text.textContent = "🙂";
+    }
+    else {
         text.textContent = "Type a number between 1 and 5";
     }
 });
