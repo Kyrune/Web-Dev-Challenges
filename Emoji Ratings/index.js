@@ -51,17 +51,29 @@ box.addEventListener("focusout", function(){
 
 box.addEventListener("keydown", function(event) {
     let key = event.code;
+    let addClass = text.classList.add("fadeIn");
+    let removeClass = setTimeout(function(){text.classList.remove("fadeIn");}, 3000);
 
     if (key == "Digit5") {
+        addClass;
         text.textContent = "😁";
+        removeClass;
     } else if (key == "Digit4") {
+        addClass;
         text.textContent = "🙂";
+        removeClass;
     } else if (key == "Digit3") {
+        addClass;
         text.textContent = "😐";
+        removeClass;
     } else if (key == "Digit2") {
+        addClass;
         text.textContent = "☹️";
+        removeClass;
     } else if (key == "Digit1") {
+        addClass;
         text.textContent = "🤬";
+        removeClass;
     } else {
         text.textContent = "Type a number between 1 and 5";
     }
