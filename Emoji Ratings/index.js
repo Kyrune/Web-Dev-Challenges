@@ -30,19 +30,37 @@ box.addEventListener("focusout", function(){
 
 // Write your code here 👇
 
-box.addEventListener("keydown", function(event) {
-    // console.log("keydown: " + event.keyCode);
-    let key = event.keyCode;
+// box.addEventListener("keydown", function(event) {
+//     // console.log("keydown: " + event.keyCode);
+//     let key = event.keyCode;
 
-    if (key == 53) {
+//     if (key == 53) {
+//         text.textContent = "😁";
+//     } else if (key == 52) {
+//         text.textContent = "🙂";
+//     } else if (key == 51) {
+//         text.textContent = "😐";
+//     } else if (key == 50) {
+//         text.textContent = "☹️";
+//     } else if (key == 49) {
+//         text.textContent = "🤬";
+//     } else {
+//         text.textContent = "Type a number between 1 and 5";
+//     }
+// });
+
+box.addEventListener("keydown", function(event) {
+    let key = event.code;
+
+    if (key == "Digit5") {
         text.textContent = "😁";
-    } else if (key == 52) {
+    } else if (key == "Digit4") {
         text.textContent = "🙂";
-    } else if (key == 51) {
+    } else if (key == "Digit3") {
         text.textContent = "😐";
-    } else if (key == 50) {
+    } else if (key == "Digit2") {
         text.textContent = "☹️";
-    } else if (key == 49) {
+    } else if (key == "Digit1") {
         text.textContent = "🤬";
     } else {
         text.textContent = "Type a number between 1 and 5";
