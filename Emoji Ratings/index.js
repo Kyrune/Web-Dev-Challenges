@@ -87,6 +87,10 @@ const keyToEomji = {
     Digit1: "🤬"
 };
 
+box.addEventListener("keyup", function(event) {
+
+});
+
 /*
 
 DETAILED INSTRUCTIONS
