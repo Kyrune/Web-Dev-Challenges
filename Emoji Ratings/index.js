@@ -89,6 +89,7 @@ const keyToEomji = {
 
 box.addEventListener("keyup", function(event) {
     console.log("event.code", keyToEomji[event.code]);
+    text.textContent = keyToEomji[event.code];
 });
 
 /*
