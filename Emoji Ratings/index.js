@@ -79,7 +79,13 @@ box.addEventListener("focusout", function(){
 //     }
 // });
 
-
+const keyToEomji = {
+    Digit5: "😁",
+    Digit4: "🙂",
+    Digit3: "😐",
+    Digit2: "☹️",
+    Digit1: "🤬"
+};
 
 /*
 
